@@ -53,7 +53,6 @@ Il progetto implementa un sistema di referral utilizzando PHP e MySQL per la ges
 ---
 
 ## Utilizzo
- [![Guarda il Video](https://img.youtube.com/vi/CODICE_VIDEO1/maxresdefault.jpg)](https://www.youtube.com/watch?v=CODICE_VIDEO1)
 1. **Accedi alla pagina principale** (`index.php`) tramite il browser:
    - Inserisci un nome utente e seleziona un'opzione dal menù a tendina:
      - Genera codice di invito
