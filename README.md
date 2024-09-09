@@ -1,6 +1,6 @@
 ---
 
-# Progetto: Sistema di Referral
+# Progetto: ReferralDB
 
 ## Descrizione
 Il progetto implementa un sistema di referral utilizzando PHP e MySQL per la gestione di inviti tra utenti. Gli utenti possono registrarsi, generare codici di invito e tracciare chi ha utilizzato il proprio codice per iscriversi. Le principali funzionalità includono la gestione degli utenti, il tracking degli inviti e l'aggiornamento dei record nel database.
@@ -8,7 +8,7 @@ Il progetto implementa un sistema di referral utilizzando PHP e MySQL per la ges
 ---
 
 ## Struttura dei File
-
+---
 ### 1. Cartella: **DB**
 #### Nome File: `referral_DB.sql`
 
@@ -51,25 +51,6 @@ Il progetto implementa un sistema di referral utilizzando PHP e MySQL per la ges
   5. **codeVision()**: Restituisce il codice di invito di un utente.
   6. **contaInviti()**: Conta quante persone hanno usato il codice di invito dell'utente.
   7. **srcNULLInv_ric()**: Controlla se l'utente ha già ricevuto un invito in passato.
-
----
-
-## Installazione
-
-1. **Clona il repository**:  
-   ```bash
-   git clone https://github.com/nomeutente/progetto-referral.git
-   ```
-
-2. **Configura il database**:
-   - Importa il file SQL `referral_DB.sql` in phpMyAdmin o tramite riga di comando:
-     ```bash
-     mysql -u root -p referral_db < referral_DB.sql
-     ```
-
-3. **Configura il server locale**:
-   - Imposta un server locale con PHP e MySQL (XAMPP, WAMP, ecc.).
-   - Modifica le credenziali del database nel file `db_fun.php` se necessario.
 
 ---
 
