@@ -8,7 +8,7 @@ Il progetto implementa un sistema di referral utilizzando PHP e MySQL per la ges
 ---
 
 ## Struttura dei File
----
+
 ### 1. Cartella: **DB**
 #### Nome File: `referral_DB.sql`
 
@@ -37,9 +37,7 @@ Il progetto implementa un sistema di referral utilizzando PHP e MySQL per la ges
     - **nUserInvited**: Mostrare il numero di utenti che hanno utilizzato il codice di invito dell'utente.
     - **codeRegistration**: Registrare un codice di invito esterno se non è già stato inserito.
 
----
 
-### 3. Cartella: **sito**
 #### Nome File: `db_fun.php`
 
 - **Descrizione**: Contiene le funzioni PHP utilizzate per interagire con il database MySQL.
