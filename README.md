@@ -61,4 +61,6 @@ Il progetto implementa un sistema di referral utilizzando PHP e MySQL per la ges
 
 2. **Esegui le operazioni**:
    - Puoi interagire con il database per gestire inviti e utenti.
+[![Guarda il Video](https://img.youtube.com/vi/qcCLijHd-98/maxresdefault.jpg)](https://www.youtube.com/watch?v=qcCLijHd-98)
+
 
